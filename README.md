@@ -26,3 +26,18 @@ In this section, using *one sample t-test*, we compare “the PSI across all man
 The result of comparing each manufacturing lot’s SPI with the population mean SPI of 1500, shows high p-values for Lot1 and Lot2 versus a slightly low p-value for Lot3. Therefore, there is sufficient statistical evidence that our null hypothesis is not true, and we would reject our null hypothesis for Lot3. However, for Lot1 and Lot2, we do not have sufficient evidence to reject our null hypothesis, and hence we fail to reject our null hypothesis. 
 
 ![t-test_lots.png](https://github.com/zkt2018/MechaCar_Statistical_Analysis/blob/main/resources/t-test_lots.png)
+
+##**Study Design: MechaCar vs Competition**
+
+###**Metric(s)**
+We will evaluate the highway fuel efficiency of MechaCar’s vehicles.
+
+###**Null hypothesis or alternative hypothesis**
+*H0:* The highway fuel efficiency does not impact the consumer choice when purchasing a vehicle.
+*Ha:* Consumers choose MechCar over the competitions due to higher highway fuel efficiency in MechCar vehicles.
+
+###**Statistical test**
+To compare the important factors between MechCar and its competitions, I would analyze the data using different statistical tools in R. The functions which can assist us for analysis would be two-sample t-test and linear regression.
+
+###**Required data**
+Required data for this test is the highway fuel efficiency of MechaCar as well as the competitors data.
