@@ -16,3 +16,13 @@ Based on the summary tables created in this section, the *total_summary* data fr
 ![total_summary_df.png](https://github.com/zkt2018/MechaCar_Statistical_Analysis/blob/main/resources/total_summary_df.png)
 
 ![lot_summary_df.png](https://github.com/zkt2018/MechaCar_Statistical_Analysis/blob/main/resources/lot_summary_df.png)
+
+##**T-Tests on Suspension Coils**
+
+In this section, using *one sample t-test*, we compare “the PSI across all manufacturing lots” with the “the population mean of 1,500” PSI. As shown in the screenshot below, the p-value equals 0.06 which is higher than the significance level and “true mean is not equal to 1500”. Hence, we do not have sufficient evidence to reject our null hypothesis, and we fail to reject our null hypothesis.
+
+![t-test_all.png](https://github.com/zkt2018/MechaCar_Statistical_Analysis/blob/main/resources/t-test_all.png)
+
+The result of comparing each manufacturing lot’s SPI with the population mean SPI of 1500, shows high p-values for Lot1 and Lot2 versus a slightly low p-value for Lot3. Therefore, there is sufficient statistical evidence that our null hypothesis is not true, and we would reject our null hypothesis for Lot3. However, for Lot1 and Lot2, we do not have sufficient evidence to reject our null hypothesis, and hence we fail to reject our null hypothesis. 
+
+![t-test_lots.png](https://github.com/zkt2018/MechaCar_Statistical_Analysis/blob/main/resourcest-test_lots.png)
