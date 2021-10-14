@@ -1,4 +1,7 @@
 # **MechaCar_Statistical_Analysis**
+## **Overview of the analysis**
+Throughout this project, we applied statistics and hypothesis testing to analyze a series of datasets from the automotive industry. Through using the `R` programming language, data was extracted, transformed, and loaded (ETL); statistically tested, visualized and interpreted the results. 
+The study design describes briefly how the MechaCar performs against the competition. And, the metrics (e.g. cost, city or highway fuel efficiency, horse power, etc) that would be of interest to a consumer have been evaluated using the statistical study.
 
 ## **Linear Regression to Predict MPG**
 Based on the the summary and the Pr(>|t|) values, vehicle_length and ground_clearance are the two variables that have a significant impact on the mpg value.
